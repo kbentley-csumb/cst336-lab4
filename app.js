@@ -4,18 +4,18 @@ app.engine('html', require('ejs').renderFile);
 app.use(express.static("public"));
 
 app.get("/",function(req,res) {
-    //res.send("it works!");
     res.render("index.html");
 });
 
 app.get("/mercury", function(req, res) {
-    res.send("This will be Mercury web page!");
+    res.render("mercury.html");
 });
 
 app.get("/venus", function(req, res) {
-    res.send("This will be Venus web page!");
+    res.render("venus.html");
 });
 
-app.listen("8081","0.0.0.0",function() {
+//app.listen("8081","0.0.0.0",function() {
+app.listen("process.env.PORT","process.env.IP",function() {
     console.log("Express Server is Running...")
 });
