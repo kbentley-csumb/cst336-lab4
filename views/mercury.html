@@ -1,3 +1,37 @@
 <% include partials/header.ejs %>
         <h1> Welcome to Mercury!</h1>
+
+        
+
+        <div class="row">
+                <div class='col-sm-4'></div>
+                <div class='col-sm-2'>
+                    <img src="img/mercury.jpg" alt="Mercury" />
+                </div>
+                <div class='col-sm-4'></div>
+            </div>
+            <div class="row">
+               <div class='col-sm-4'></div>
+               <div class='col-sm-4' id="myContent">
+                   <p>Here are some fun Mercury facts:
+                       <ul>
+                           <li>Mercury orbits the sun faster than any other planet.</li>
+                           <li>Mercury can be seen during a total solar eclipse</li>
+                           <li>The average temperature on Mercury is 332&deg; Fahrenheit, but it gets as cold as -290&deg; and as hot as 800&deg;</li>
+                           <li>Even though Mercury is the closest planet to the sun, it is not the hottest. The hottest planet in our solar system is <a href="/venus">Venus.</a></li>
+                       </ul>
+                   </p>
+               </div>
+               <div class='col-sm-4'></div>
+    
+            </div>
+            <div id="myCredits">
+                Photo from <a href="https://commons.wikimedia.org/wiki/File:Mercury_in_color_-_Prockter07-edit1.jpg">https://commons.wikimedia.org/wiki/File:Mercury_in_color_-_Prockter07-edit1.jpg</a>
+                <br>
+                Some of this information sourced through <a href="https://en.wikipedia.org/wiki/Mercury_(planet)">https://en.wikipedia.org/wiki/Mercury_(planet)</a> and
+                <a href="https://www.space.com/18645-mercury-temperature.html">https://www.space.com/18645-mercury-temperature.html</a>
+            </div>
+        <script type="text/javascript">
+            $('#navMercury').addClass('menuselected');
+        </script>
 <% include partials/footer.ejs %>

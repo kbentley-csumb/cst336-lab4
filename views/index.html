@@ -1,9 +1,10 @@
 <% include partials/header.ejs %>
         <h1> Welcome to the Solar System Site!</h1>
+        <h2>Select a planet from the menu on top to more about it.</h2>
         <img src="/img/solar-system.png" alt="The Solar System"/><br>
-        <p>Click on a planet to know more about it:</p>
-        <a href="/mercury">Mercury</a><br>
-        <a href="/venus">Venus</a><br>
-        Earth <br>
+
+        <script type="text/javascript">
+            $('#navHome').addClass('menuselected');
+        </script>
 
         <% include partials/footer.ejs %>

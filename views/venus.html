@@ -1,3 +1,41 @@
 <% include partials/header.ejs %>
         <h1> Welcome to Venus!</h1>
+
+        <div class="row">
+                <div class='col-sm-5'></div>
+                <div class='col-sm-2'>
+                    <img src="img/venus.jpg" alt="Venus" />
+                </div>
+                <div class='col-sm-5'></div>
+            </div>
+            <div class="row">
+               <div class='col-sm-4'></div>
+               <div class='col-sm-4' id="myContent">
+                   <p>Here are some fun Venus facts:
+                       <ul>
+                           <li>Venus has a very similar size to the planet <a href="/earth">Earth</a>, and is sometimes referred to as its sister planet.</li>
+                           <li>Venus is one of the brightest of all the planets and stars in the sky.</li>
+                           <li>Venus has the hottest surface temperature of all the planets.</li>
+                           <li>Gravity on Venus is about 91% of the earth's gravity. But it is covered by acid clouds, so you probably don't want to live there.</li>
+
+                       </ul>
+                   </p>
+               </div>
+               <div class='col-sm-4'></div>
+    
+            </div>
+            <div id="myCredits">
+                Photo from <a href="http://photojournal.jpl.nasa.gov/catalog/PIA00104">http://photojournal.jpl.nasa.gov/catalog/PIA00104</a>
+                <br>
+                Some of this information sourced through <a href="https://theplanets.org/venus/">https://theplanets.org/venus/</a> 
+                
+            </div>
+
+        
+
+
+        <script type="text/javascript">
+            $('#navVenus').addClass('menuselected');
+        </script>
+
 <% include partials/footer.ejs %>
