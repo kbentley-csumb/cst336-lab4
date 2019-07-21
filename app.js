@@ -19,6 +19,10 @@ app.get("/earth", function(req, res) {
     res.render("earth.html");
 });
 
+app.get("/mars", function(req, res) {
+    res.render("mars.html");
+});
+
 //app.listen("8081","0.0.0.0",function() {
 app.listen(process.env.PORT,process.env.IP,function() {
     console.log("Express Server is Running...")

@@ -1,0 +1,36 @@
+<% include partials/header.ejs %>
+        <h1> Welcome to Mars!</h1>
+
+        <div class="row justify-content-center">
+            <img src="img/mars.jpg" alt="Mars" />
+        </div>
+            <div class="row">
+               <div class='col-sm-4'></div>
+               <div class='col-sm-4' id="myContent">
+                   <p>Here are some fun Mars facts:
+                       <ul>
+                           <li>There have been 39 missions to mars, either to orbit, or to explore the planet</li>
+                           <li>Mars is the most likely of all the planets to support life. It has the most similar environment to earth in terms of seasons, and it is known to contain water and many other elements needed.</li>
+                           <li>There is no magnetic field on Mars, which means habitants are exposed to more cosmic rays than on earth. Cosmic rays increase the chances of developing cancer.</li>
+
+                       </ul>
+                   </p>
+               </div>
+               <div class='col-sm-4'></div>
+    
+            </div>
+            <div id="myCredits">
+                Photo from <a href="https://en.wikipedia.org/wiki/Mars#/media/File:OSIRIS_Mars_true_color.jpg">https://en.wikipedia.org/wiki/Mars#/media/File:OSIRIS_Mars_true_color.jpg</a>
+                <br>
+                Some of this information sourced through <a href="https://theplanets.org/mars/">https://theplanets.org/mars/</a> 
+                
+            </div>
+
+        
+
+
+        <script type="text/javascript">
+            $('#navMars').addClass('menuselected');
+        </script>
+
+<% include partials/footer.ejs %>
